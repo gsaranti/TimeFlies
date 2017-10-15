@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Time Flies Beta 2.0
+//  Time Flies Final
 //
-//  Created by George Sarantinos on 8/13/17.
+//  Created by George Sarantinos on 8/15/17.
 //  Copyright © 2017 George Sarantinos. All rights reserved.
 //
 
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Time_Flies_Beta_2_0")
+        let container = NSPersistentContainer(name: "Time_Flies_Final")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
